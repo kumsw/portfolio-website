@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e" modified="2021-02-05T16:48:25.397Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="NqpXez9JmEgv0GpDYUIk" type="embed">
+    <diagram id="xU6gQDvu92W7L8Bq23yZ" name="Page-1">
+        <mxGraphModel dx="595" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font color=&quot;#000000&quot;&gt;App&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="40" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font color=&quot;#000000&quot;&gt;AboutMe&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="160" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;NavBar&lt;br&gt;&lt;/b&gt;React Routing&lt;br&gt;functionality to scroll to sections in the doc&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="280" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b style=&quot;color: rgb(0 , 0 , 0) ; font-size: 8px&quot;&gt;ScrollTop&lt;/b&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 8px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 8px&quot;&gt;Functionality to take you back to the top&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 8px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 8px&quot;&gt;renders{&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 8px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 8px&quot;&gt;arrow SVG&lt;/span&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="270" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;MySkills&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="160" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Projects&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="160" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font color=&quot;#000000&quot;&gt;Contact&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="160" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 9px&quot;&gt;&lt;b&gt;Heading&lt;br&gt;&lt;/b&gt;Renders{&lt;br&gt;each section heading&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="280" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;TextContent&lt;br&gt;&lt;/b&gt;&lt;br&gt;renders{ text&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="275" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 8px&quot;&gt;&lt;b&gt;CtaButton&lt;/b&gt;&lt;br&gt;renders{&lt;br&gt;button&lt;br&gt;onclick will route to. certain {locationS}&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="400" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;ProjectCard&lt;/b&gt;&lt;br&gt;render{&lt;br&gt;heading&lt;br&gt;textContent&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="390" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Contact form&lt;br&gt;renders{&amp;nbsp;&lt;br&gt;form&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="380" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 10px&quot;&gt;&lt;b&gt;Footer&lt;/b&gt;&lt;br&gt;renders{&amp;nbsp;&lt;br&gt;social media buttons&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="390" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

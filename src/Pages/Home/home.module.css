@@ -1,0 +1,25 @@
+.home {
+  background-color: #b8c1ec;
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-template-rows: 50% 50%;
+}
+
+.heading {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-items: center;
+}
+img {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding: 2rem;
+}
+
+.buttons {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-items: center;
+}
