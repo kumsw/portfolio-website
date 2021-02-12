@@ -10,14 +10,13 @@ import logo from "./Polygon3Kunmi_home_spikes.png";
 function Navbar() {
   return (
     <nav className={styles.nav}>
+      <img
+        className={styles.navLogo}
+        alt="Kunmi Logo"
+        src={logo}
+        onClick={scroll.scrollToTop}
+      />
       <div className={styles.container}>
-        <img
-          className={styles.navLogo}
-          alt="Kunmi Logo"
-          src={logo}
-          onClick={scroll.scrollToTop}
-        />
-
         {navItems.map((item) => {
           return (
             <Link

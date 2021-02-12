@@ -6,9 +6,10 @@ import CtaButton from "../../Components/CtaButton";
 function Home() {
   return (
     <div className={styles.home}>
-      <section className={styles.heading}>
-        <Heading text={"Hi i'm Kunmi"}></Heading>
-        <Heading text={"Software Developer"}></Heading>
+      <section className={styles.homeHeading}>
+        <Heading text={`Hi there,  i'm `}> </Heading>
+        <Heading text={"Kunmi"}></Heading>
+        <Heading text={"Software Engineer"}></Heading>
       </section>
       <section className={styles.buttons}>
         <CtaButton buttonText={"See my stuff"}></CtaButton>

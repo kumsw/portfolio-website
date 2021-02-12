@@ -1,7 +1,9 @@
+import styles from "./mySkills.module.css";
+import Heading from "../../Components/Heading";
 export default function MySkills() {
   return (
-    <div>
-      <h2> My Skills</h2>
+    <div className={styles.skills}>
+      <Heading text={"My Skills"}></Heading>
     </div>
   );
 }

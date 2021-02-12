@@ -1,37 +1,27 @@
-.container {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 1rem;
-  padding: 1rem;
-  z-index: 10;
-  border-bottom: black;
-  border-width: 0.2rem;
-}
-.container h4 {
-  float: left;
-}
-
-.navBar {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  padding: 1rem;
-}
-
 .nav {
   display: flex;
   flex-direction: row;
-  padding: 0.5rem;
+  justify-content: flex-end;
+  padding: 2rem;
+  z-index: 10;
+  border-width: 0.2rem;
+  background-color: #b8c1ec;
 }
 
+.container {
+  justify-content: flex-end;
+}
 a {
-  padding: 0.5rem;
+  padding: 1rem;
 }
 .navLogo {
   height: 50px;
   width: 45px;
+  padding: 0px;
+  justify-content: flex-start;
+}
+
+.navItem {
+  color: #232946;
+  font-weight: bold;
 }

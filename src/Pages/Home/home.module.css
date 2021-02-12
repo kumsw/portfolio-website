@@ -3,12 +3,13 @@
   display: grid;
   grid-template-columns: 40% auto;
   grid-template-rows: 50% 50%;
+  color: #232946;
 }
 
-.heading {
+heading .homeHeading {
   grid-column-start: 1;
   grid-column-end: 2;
-  justify-items: center;
+  margin: 0px;
 }
 img {
   grid-column-start: 2;
