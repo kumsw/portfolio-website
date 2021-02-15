@@ -1,7 +1,10 @@
+import Heading from "../../Components/Heading";
+import styles from "./contact.module.css";
+
 export default function Contact() {
   return (
     <div>
-      <h2> Contact</h2>
+      <Heading className={styles.heading} text={"Let's Connect"}></Heading>
     </div>
   );
 }

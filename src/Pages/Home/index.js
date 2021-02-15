@@ -1,5 +1,5 @@
 import styles from "./home.module.css";
-import Heading from "../../Components/Heading";
+
 import HomeImage from "./homeBanner.png";
 import CtaButton from "../../Components/CtaButton";
 
@@ -7,13 +7,20 @@ function Home() {
   return (
     <div className={styles.home}>
       <section className={styles.homeHeading}>
-        <Heading text={`Hi there,  i'm `}> </Heading>
-        <Heading text={"Kunmi"}></Heading>
-        <Heading text={"Software Engineer"}></Heading>
+        <h1 id="kunmiHeading">Hi there, i'm Kunmi</h1>
+        <h1>Software Engineer</h1>
       </section>
       <section className={styles.buttons}>
-        <CtaButton buttonText={"See my stuff"}></CtaButton>
-        <CtaButton buttonText={"Contact me"}></CtaButton>
+        <CtaButton
+          style={{ backgroundColor: "#1C8DA6" }}
+          id="seeMyStuff"
+          buttonText={"See my stuff"}
+        ></CtaButton>
+        <CtaButton
+          style={{ backgroundColor: "#6688EC" }}
+          id="contact"
+          buttonText={"Contact me"}
+        ></CtaButton>
       </section>
       <img src={HomeImage} alt={" kunmi with an ankara print sky"} />
     </div>

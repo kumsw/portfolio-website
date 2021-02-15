@@ -1,26 +1,31 @@
 .home {
   background-color: #b8c1ec;
   display: grid;
-  grid-template-columns: 40% auto;
+  grid-template-columns: 20% 20% auto;
   grid-template-rows: 50% 50%;
   color: #232946;
 }
 
-heading .homeHeading {
+.homeHeading {
   grid-column-start: 1;
-  grid-column-end: 2;
-  margin: 0px;
-}
-img {
-  grid-column-start: 2;
   grid-column-end: 3;
+  padding: 0;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+img {
+  grid-column-start: 3;
+  grid-column-end: 4;
   padding: 2rem;
 }
 
 .buttons {
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
   justify-items: center;
+  margin: auto;
 }
