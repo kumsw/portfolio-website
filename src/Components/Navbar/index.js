@@ -6,7 +6,7 @@ import logo from "./Polygon3Kunmi_home_spikes.png";
 function Navbar() {
   return (
     <nav className={styles.nav}>
-      <div>
+      <div className={styles.logoWrapper}>
         <img
           className={styles.navLogo}
           alt="Kunmi Logo"

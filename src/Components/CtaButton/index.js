@@ -1,8 +1,8 @@
 import styles from "./ctaButton.module.css";
 
-function CtaButton({ buttonText, style }) {
+function CtaButton({ buttonText, style, id }) {
   return (
-    <button style={style} className={styles.button}>
+    <button id={id} style={style} className={styles.button}>
       {buttonText}
     </button>
   );

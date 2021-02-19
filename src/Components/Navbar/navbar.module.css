@@ -24,9 +24,9 @@
 
 .navItem {
   color: #232946;
-  padding: 0.5rem;
+  margin-left: 2rem;
   font-weight: bold;
 }
 .navItem:hover {
-  border-bottom: 1rem solid #232946;
+  border-bottom: 0.4rem solid #232946;
 }
