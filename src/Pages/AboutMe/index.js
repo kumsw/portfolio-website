@@ -5,7 +5,11 @@ import Text from "../../Components/TextContent";
 export default function AboutMe() {
   return (
     <div className={styles.aboutMe}>
-      <Heading className={styles.heading} text={"About me"}></Heading>
+      <Heading
+        id={"about"}
+        className={styles.heading}
+        text={"About me"}
+      ></Heading>
       <main>
         <section className={styles.section}>
           <h3>Why that photo? </h3>

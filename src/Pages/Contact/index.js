@@ -4,7 +4,11 @@ import styles from "./contact.module.css";
 export default function Contact() {
   return (
     <div>
-      <Heading className={styles.heading} text={"Let's Connect"}></Heading>
+      <Heading
+        id={"contact"}
+        className={styles.heading}
+        text={"Let's Connect"}
+      ></Heading>
     </div>
   );
 }

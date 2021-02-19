@@ -1,27 +1,32 @@
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   padding: 2rem;
   z-index: 10;
-  border-width: 0.2rem;
   background-color: #b8c1ec;
+}
+.logoWrapper {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .container {
+  display: flex;
+  width: 100%;
   justify-content: flex-end;
 }
-a {
-  padding: 1rem;
-}
+
 .navLogo {
   height: 50px;
   width: 45px;
   padding: 0px;
-  justify-content: flex-start;
 }
 
 .navItem {
   color: #232946;
+  padding: 0.5rem;
   font-weight: bold;
+}
+.navItem:hover {
+  border-bottom: 1rem solid #232946;
 }
